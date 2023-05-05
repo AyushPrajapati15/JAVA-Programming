@@ -33,5 +33,44 @@ public class StringHandlingFunc {
                 String suffix = input.nextLine();
                 boolean endsWith = str.endsWith(suffix);
                 System.out.println("String ends with " + suffix + ": " + endsWith);
+
+
+                 String name = "Alice";
+
+
+        String nonTrimmedString = "     Alice     ";
+        System.out.println(nonTrimmedString);
+
+        String trimmedString = nonTrimmedString.trim();
+        System.out.println(trimmedString);
+
+        System.out.println(name.substring(1));
+        System.out.println(name.substring(1,5));
+
+        System.out.println(name.replace('i', 'e'));
+        System.out.println(name.replace("i", "ice"));
+
+        System.out.println(name.startsWith("Ali"));
+        System.out.println(name.endsWith("dd"));
+
+        System.out.println(name.charAt(4));
+
+        String modifiedName = "Aliceiceice";
+        System.out.println(modifiedName.indexOf("ice"));
+        System.out.println(modifiedName.indexOf("ice", 4));
+        System.out.println(modifiedName.lastIndexOf("ice", 7));
+
+        System.out.println(name.equals("Alice"));
+        System.out.println(name.equalsIgnoreCase("AliCE"));
+
+        System.out.println("I am escape sequence\'double quote\n");
+        System.out.println("I am escape sequence\"double quote\n");
+        System.out.println("I am escape sequence\\double quote\n");
+        System.out.println("I am escape sequence\tdouble quote\n");
+        System.out.println("I am escape sequence\bdouble quote\n");
+        System.out.println("I am escape sequence\ndouble quote\n");
+        System.out.println("I am escape sequence\rdouble quote\n");
+        System.out.println("I am escape sequence\fdouble quote\n");
+
             }
 }

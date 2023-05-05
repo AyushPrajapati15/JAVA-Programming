@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Day-1_BasicOperations/Day-1_BasicOperations.iml" filepath="$PROJECT_DIR$/Day-1_BasicOperations/Day-1_BasicOperations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day-2_ArithmeticOperations&amp;UserInput/Day-2_ArithmeticOperations&amp;UserInput.iml" filepath="$PROJECT_DIR$/Day-2_ArithmeticOperations&amp;UserInput/Day-2_ArithmeticOperations&amp;UserInput.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day-3/Day-3.iml" filepath="$PROJECT_DIR$/Day-3/Day-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day-4/Day-4.iml" filepath="$PROJECT_DIR$/Day-4/Day-4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day-5/Day-5.iml" filepath="$PROJECT_DIR$/Day-5/Day-5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day-6/Day-6.iml" filepath="$PROJECT_DIR$/Day-6/Day-6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day-7/Day-7.iml" filepath="$PROJECT_DIR$/Day-7/Day-7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day-8/Day-8.iml" filepath="$PROJECT_DIR$/Day-8/Day-8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day-9/Day-9.iml" filepath="$PROJECT_DIR$/Day-9/Day-9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JAVA.iml" filepath="$PROJECT_DIR$/.idea/JAVA.iml" />
+    </modules>
+  </component>
+</project>
