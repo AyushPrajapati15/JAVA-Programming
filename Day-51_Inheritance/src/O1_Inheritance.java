@@ -5,6 +5,7 @@ class Shape {
     }
 }
 
+
 // Rectangle class
 class Rectangle extends Shape {
     private double length;
@@ -20,6 +21,7 @@ class Rectangle extends Shape {
         return length * width;
     }
 }
+
 
 // Circle class
 class Circle extends Shape {
