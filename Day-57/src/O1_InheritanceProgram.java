@@ -1,12 +1,15 @@
 class Shape {
     protected String name;
+
     public Shape(String name) {
         this.name = name;
     }
+
     public void displayInfo() {
         System.out.println("Shape: " + name);
     }
 }
+
 class Circle extends Shape {
     private double radius;
     public Circle(String name, double radius) {
@@ -20,19 +23,24 @@ class Circle extends Shape {
         return 2 * Math.PI * radius;
     }
 }
+
 class Square extends Shape {
     private double side;
+
     public Square(String name, double side) {
         super(name);
         this.side = side;
     }
+
     public double calculateArea() {
         return side * side;
     }
+
     public double calculatePerimeter() {
         return 4 * side;
     }
 }
+
 class Rectangle extends Shape {
     private double length;
     private double width;
