@@ -48,6 +48,7 @@ class Rectangle extends Shape {
         return 2 * (length + width);
     }
 }
+
 public class O1_InheritanceProgram {
     public static void main(String[] args) {
         Circle circle = new Circle("Circle", 5.0);
