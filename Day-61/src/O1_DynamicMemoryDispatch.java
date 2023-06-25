@@ -53,6 +53,7 @@ class Triangle extends Shape {
 
 public class O1_DynamicMemoryDispatch {
     public static void main(String[] args) {
+        
         Shape circle = new Circle(5.0);
         Shape rectangle = new Rectangle(4.0, 6.0);
         Shape triangle = new Triangle(3.0, 8.0);
