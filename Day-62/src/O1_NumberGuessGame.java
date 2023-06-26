@@ -52,7 +52,7 @@ class Game{
     }
 
 }
-public class Main {
+public class O1_NumberGuessGame {
     public static void main(String[] args) {
 
         Game g = new Game();
