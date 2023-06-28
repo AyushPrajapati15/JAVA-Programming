@@ -50,7 +50,6 @@ class Game{
         }
         return false;
     }
-
 }
 public class O1_NumberGuessGame {
     public static void main(String[] args) {
