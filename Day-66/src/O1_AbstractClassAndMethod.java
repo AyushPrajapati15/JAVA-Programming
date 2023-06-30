@@ -11,24 +11,30 @@ interface HornBicycle{
     void blowHornmhn();
 }
 
-class AvonCycle implements Bicycle, HornBicycle{
+class AvonCycle implements Bicycle, HornBicycle {
     //public int x = 5;
-    void blowHorn(){
+    void blowHorn() {
         System.out.println("Blowing horn");
     }
-    public void applyBrake(int decrement){
+
+    public void applyBrake(int decrement) {
         System.out.println("Applying Brake");
     }
-    public void speedUp(int increment){
+
+    public void speedUp(int increment) {
         System.out.println("Applying SpeedUP");
     }
-    public void blowHornK3g(){
+
+    public void blowHornK3g() {
         System.out.println("Blowing horn song ");
     }
-    public void blowHornmhn(){
+
+    public void blowHornmhn() {
         System.out.println("Horn! Horn! Horn! Horn!");
     }
 }
+
+
 public class O1_AbstractClassAndMethod {
     public static void main(String[] args) {
         AvonCycle cycleHarry = new AvonCycle();
