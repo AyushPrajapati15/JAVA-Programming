@@ -1,4 +1,4 @@
-// Abstract Class And Abstract Method
+// Interface
 interface Bicycle{
     int a = 45;
     void applyBrake(int decrement);
@@ -35,7 +35,7 @@ class AvonCycle implements Bicycle, HornBicycle {
 }
 
 
-public class O1_AbstractClassAndMethod {
+public class O_Interface {
     public static void main(String[] args) {
         AvonCycle cycleHarry = new AvonCycle();
         cycleHarry.applyBrake(1);
