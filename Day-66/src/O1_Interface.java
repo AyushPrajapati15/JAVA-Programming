@@ -35,7 +35,7 @@ class AvonCycle implements Bicycle, HornBicycle {
 }
 
 
-public class O_Interface {
+public class O1_Interface {
     public static void main(String[] args) {
         AvonCycle cycleHarry = new AvonCycle();
         cycleHarry.applyBrake(1);
