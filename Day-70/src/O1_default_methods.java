@@ -1,5 +1,4 @@
 // Interface example and default methods
-
 interface MyCamera{
     void takeSnap();
     void recordVideo();
