@@ -23,28 +23,31 @@ class MyCellPhone{
     void pickCall(){
         System.out.println("Connecting... ");
     }
-
 }
 
-class MySmartPhone extends MyCellPhone implements MyWifi, MyCamera{
-    public void takeSnap(){
+class MySmartPhone extends MyCellPhone implements MyWifi, MyCamera {
+    public void takeSnap() {
         System.out.println("Taking snap");
     }
-    public void recordVideo(){
+
+    public void recordVideo() {
         System.out.println("Taking snap");
     }
+
     //    public void record4KVideo(){
-//        System.out.println("Taking snap and recoding in 4k");
-//    }
-    public String[] getNetworks(){
+    //        System.out.println("Taking snap and recoding in 4k");
+    //    }
+    public String[] getNetworks() {
         System.out.println("Getting List of Networks");
-        String[] networkList = {"Alice-5G", "Jack-4G", "Mary-5G"};
+        String[] networkList = { "Alice-5G", "Jack-4G", "Mary-5G" };
         return networkList;
     }
-    public void connectToNetwork(String network){
+
+    public void connectToNetwork(String network) {
         System.out.println("Connecting to " + network);
     }
 }
+
 public class O1_default_methods {
     public static void main(String[] args) {
         MySmartPhone ms = new MySmartPhone();
