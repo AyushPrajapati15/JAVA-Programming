@@ -16,7 +16,7 @@ class Cat implements Animal {
     }
 }
 
-public class Main {
+public class O1_PolymorphismInInterface {
     public static void main(String[] args) {
         Dog dog = new Dog();
         Cat cat = new Cat();
