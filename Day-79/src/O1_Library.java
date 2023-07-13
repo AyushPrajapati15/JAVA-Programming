@@ -1,3 +1,5 @@
+// Library management program
+
 // You have to implement a library using Java Class "Library"
 // Methods: addBook, issueBook, returnBook, showAvailableBooks
 // Properties: Array to store the available books,
@@ -42,7 +44,7 @@ class Library{
     }
 
 }
-public class O1_main {
+public class O1_Library {
     public static void main(String[] args) {
 
         Library centralLibrary = new Library();
