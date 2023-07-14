@@ -1,3 +1,4 @@
+//  Create a base class Shape with an abstract method calculateArea(). Create derived classes Circle and Rectangle that extend the Shape class and provide their own implementations of the calculateArea() method. Write a program that creates an array of Shape objects, including both Circle and Rectangle objects, and demonstrates polymorphism by calling the calculateArea() method on each object.
 abstract class Shape {
     abstract double calculateArea();
 }
