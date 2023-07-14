@@ -31,7 +31,7 @@ class Rectangle extends Shape {
     }
 }
 
-public class Main {
+public class O1_PolymorphismProgram {
     public static void main(String[] args) {
 
         Shape[] shapes = new Shape[3];
