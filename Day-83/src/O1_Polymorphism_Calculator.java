@@ -1,3 +1,4 @@
+// Calculator program using O1_Polymorphism
 import  java.util.Scanner;
 class Calculator {
     public void calculate(int a, int b) {
