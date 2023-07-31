@@ -1,3 +1,4 @@
+//  Implement a Java program to calculate the factorial of a given number using threads. Create a thread to calculate the factorial recursively and another thread to calculate it iteratively. Compare the results obtained from both threads.
 class FactorialRecursiveThread extends Thread {
     private int number;
     private long result;
