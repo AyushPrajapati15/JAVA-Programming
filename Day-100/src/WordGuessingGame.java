@@ -59,6 +59,8 @@ public class WordGuessingGame {
         if (attempts == 0) {
             System.out.println("Sorry, you've run out of attempts." +
                     " The secret word was: " + Word);
+                    System.out.println("Sorry, you've run out of attempts." +
+                    " The secret word was: " + Word);
         }
     }
 }
